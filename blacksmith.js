@@ -89,7 +89,18 @@ const game = {
  * Returns the instruction on how to play the game.
  */
 function help () {
-  return `INSTRUCTIONS:\nBlacksmith is a simple text base game. As a blacksmith you convert ore and wood into swords and axes. You buy your resources using gold and sell your weapons for gold. \n\nCOMMANDS:\n- buy(item)\n- make(item)\n- sell(item)\n- fire()\n- inventory()\n- help()`
+  return `INSTRUCTIONS:
+Blacksmith is a simple text base game. 
+
+As a blacksmith you convert ore and wood into swords and axes. You buy your resources using gold and sell your weapons for gold.
+
+COMMANDS:
+- buy(item)
+- make(item)
+- sell(item)
+- fire()
+- inventory()
+- help()`
 }
 
 // Log the help() function
